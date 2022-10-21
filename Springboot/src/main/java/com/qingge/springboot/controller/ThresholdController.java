@@ -41,10 +41,8 @@ public class ThresholdController {
         String filepath= "D:\\CodeProject\\SaaS\\files\\"+imgurl.substring(27,63);
         Mat src = Imgcodecs.imread(filepath,0);
         Imgproc.threshold(src, src, 125, 255, Imgproc.THRESH_BINARY);
-        HighGui.imshow("直接阈值化", src);
         Imgcodecs.imwrite("D:\\CodeProject\\SaaS\\files\\1.jpg",src);
         HighGui.waitKey();
-
         return Result.success();
     }
 }
