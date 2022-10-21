@@ -37,12 +37,10 @@ public class ThresholdController {
     @GetMapping("/process")
     public Result thresholdProcess(@RequestParam String imgurl){
         System.load("D:\\Application\\opencv\\opencv\\build\\java\\x64\\opencv_java454.dll");
-        System.out.println(imgurl.substring(27,63));
         String filepath= "D:\\CodeProject\\SaaS\\files\\"+imgurl.substring(27,63);
         Mat src = Imgcodecs.imread(filepath,0);
         Imgproc.threshold(src, src, 125, 255, Imgproc.THRESH_BINARY);
         Imgcodecs.imwrite("D:\\CodeProject\\SaaS\\files\\1.jpg",src);
-        HighGui.waitKey();
         return Result.success();
     }
 }

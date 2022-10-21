@@ -1,48 +1,142 @@
 <template>
   <div>
     <div>
+      <el-row :gutter="10" class="el-row" type="flex">
+        <el-col>
+          <el-card class="box-card" shadow="hover" >
+            <template #header>
+              <div class="card-header">
+                <span>图片处理</span>
+                <el-button type="primary" @click="handleAdd">传入数据<i class="el-icon-circle-plus-outline"></i></el-button>
+              </div>
+            </template>
+            <template>
+              <div class="demo-image__preview">
+                <el-image
+                    style="width: 440px; height: 300px"
+                    :src=form.imgurl
+                    :preview-src-list="[form.imgurl]"
+                >
+                </el-image>
+              </div>
+            </template>
+            <el-button type="primary" @click="thresholdProcess" >阈值处理</el-button>
+            <el-button type="primary" @click="whiteningProcess" >美白处理</el-button>
+            <el-button type="primary" @click="mosaicProcess" >马赛克处理</el-button>
+            <el-button type="primary" @click="oilpaintingProcess" >油画处理</el-button>
+          </el-card>
+        </el-col>
+        <el-col>
+          <el-card class="box-card" shadow="hover">
+            <template #header>
+              <div class="card-header">
+                <span>阈值处理</span>
+              </div>
+            </template>
+            <template>
+              <div class="demo-image__preview">
+                <el-image
+                    style="width: 440px; height: 300px"
+                    :src="require('D:\\CodeProject\\SaaS\\files\\1.jpg')"
+                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\1.jpg')]"
+                >
+                </el-image>
+              </div>
+            </template>
+            <el-button type="primary"  >成图如上</el-button>
+            <el-button type="primary"  >下载图片</el-button>
+          </el-card>
+        </el-col>
+        <el-col >
+          <el-card class="box-card" shadow="hover">
+            <template #header>
+              <div class="card-header">
+                <span>美白处理</span>
+              </div>
+            </template>
+            <template>
+              <div class="demo-image__preview">
+                <el-image
+                    style="width: 440px; height: 300px"
+                    :src="require('D:\\CodeProject\\SaaS\\files\\2.jpg')"
+                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\2.jpg')]"
+                >
+                </el-image>
+              </div>
+            </template>
+            <el-button type="primary"  >成图如上</el-button>
+            <el-button type="primary"  >下载图片</el-button>
+          </el-card>
+        </el-col>
+      </el-row>
+    </div>
+    <div>
+      <el-row :gutter="20" class="el-row" type="flex">
+        <el-col>
+          <el-card class="box-card" shadow="hover">
+            <template #header>
+              <div class="card-header">
+                <span>马赛克处理</span>
+              </div>
+            </template>
+            <template>
+              <div class="demo-image__preview">
+                <el-image
+                    style="width: 440px; height: 300px"
+                    :src="require('D:\\CodeProject\\SaaS\\files\\3.jpg')"
+                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\3.jpg')]"
+                >
+                </el-image>
+              </div>
+            </template>
+            <el-button type="primary"  >成图如上</el-button>
+            <el-button type="primary"  >下载图片</el-button>
+          </el-card>
+        </el-col>
+        <el-col>
+          <el-card class="box-card" shadow="hover">
+            <template #header>
+              <div class="card-header">
+                <span>油画处理</span>
+              </div>
+            </template>
+            <template>
+              <div class="demo-image__preview">
+                <el-image
+                    style="width: 440px; height: 300px"
+                    :src="require('D:\\CodeProject\\SaaS\\files\\4.jpg')"
+                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\4.jpg')]"
+                >
+                </el-image>
+              </div>
+            </template>
+            <el-button type="primary"  >成图如上</el-button>
+            <el-button type="primary"  >下载图片</el-button>
+          </el-card>
+        </el-col>
+        <el-col >
         <el-card class="box-card" shadow="hover">
           <template #header>
             <div class="card-header">
-             <span>阈值处理</span>
-              <el-button type="primary" @click="handleAdd">传入数据<i class="el-icon-circle-plus-outline"></i></el-button>
+              <span>低阈值零处理</span>
             </div>
           </template>
           <template>
             <div class="demo-image__preview">
               <el-image
                   style="width: 440px; height: 300px"
-                  :src=form.imgurl
-                  :preview-src-list="[form.imgurl]"
+                  :src="require('D:\\CodeProject\\SaaS\\files\\5.jpg')"
+                  :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\5.jpg')]"
               >
               </el-image>
             </div>
           </template>
-          <el-button type="primary" @click="thresholdProcess" >阈值处理</el-button>
+          <el-button type="primary"  >成图如上</el-button>
+          <el-button type="primary"  >下载图片</el-button>
         </el-card>
+        </el-col>
+      </el-row>
     </div>
-    <div>
-      <el-card class="box-card" shadow="hover">
-        <template #header>
-          <div class="card-header">
-            <span>直接阈值化</span>
-          </div>
-        </template>
-        <template>
-          <div class="demo-image__preview">
-            <el-image
-                style="width: 440px; height: 300px"
-                :src="require('D:\\CodeProject\\SaaS\\files\\1.jpg')"
-                :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\1.jpg')]"
-            >
-            </el-image>
-          </div>
-        </template>
-        <el-button type="primary"  >成图如上</el-button>
-        <el-button type="primary"  >下载图片</el-button>
-      </el-card>
-    </div>
-
   <el-dialog title="数据信息" :visible.sync="dialogFormVisible" width="20%">
     <el-form label-width="80px" size="small">
       <el-form-item label="参数1">
@@ -142,27 +236,6 @@ export default {
   width: 480px;
 }
 
-.time {
-  font-size: 13px;
-  color: #999;
-}
 
-.bottom {
-  margin-top: 13px;
-  line-height: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.button {
-  padding: 0;
-  min-height: auto;
-}
-
-.image {
-  width: 100%;
-  display: block;
-}
 
 </style>
