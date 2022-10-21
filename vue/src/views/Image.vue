@@ -1,7 +1,6 @@
 <template>
   <div>
     <div>
-
         <el-card class="box-card" shadow="hover">
           <template #header>
             <div class="card-header">
@@ -21,7 +20,6 @@
           </template>
           <el-button type="primary" @click="thresholdProcess" >阈值处理</el-button>
         </el-card>
-
     </div>
     <div>
       <el-card class="box-card" shadow="hover">
