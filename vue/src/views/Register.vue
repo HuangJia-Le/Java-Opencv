@@ -22,7 +22,7 @@
         </div>
       </div>
       <video  autoplay loop muted class="fillWidth" v-on:canplay="canplay">
-        <source src="../assets/preview.mp4" type="video/mp4"/>
+        <source src="../assets/1.mp4" type="video/mp4"/>
         浏览器不支持 video 标签，建议升级浏览器。
       </video>
     </div>

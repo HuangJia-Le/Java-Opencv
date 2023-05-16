@@ -22,12 +22,12 @@ public class CodeGenerator {
                     builder.author("小黄同学") // 设置作者
                             .enableSwagger() // 开启 swagger 模式
                             .fileOverride() // 覆盖已生成文件
-                            .outputDir("D:\\CodeProject\\SaaS\\Springboot\\src\\main\\java\\"); // 指定输出目录
+                            .outputDir("E:\\CodeProject\\SaaS\\Springboot\\src\\main\\java\\"); // 指定输出目录
                 })
                 .packageConfig(builder -> {
                     builder.parent("com.qingge.springboot") // 设置父包名
                             .moduleName(null) // 设置父包模块名
-                            .pathInfo(Collections.singletonMap(OutputFile.mapperXml, "D:\\CodeProject\\SaaS\\Springboot\\src\\main\\resources\\mapper\\")); // 设置mapperXml生成路径
+                            .pathInfo(Collections.singletonMap(OutputFile.mapperXml, "E:\\CodeProject\\SaaS\\Springboot\\src\\main\\resources\\mapper\\")); // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
                     builder.entityBuilder().enableLombok();

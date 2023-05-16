@@ -1,7 +1,7 @@
 <template>
   <div style="color: #666;font-size: 14px;">
     <div style="padding-bottom: 20px;  font-size: 20px">
-      <b>欢迎你来到绿色慈善回收系统！{{ user.nickname }}   有事请联系管理员邮箱：1722589735@qq.com</b>
+      <b>欢迎你来到图像SAAS系统！{{ user.nickname }}   有事请联系管理员</b>
     </div>
     <div class="block">
       <el-carousel height="500px">
@@ -11,24 +11,6 @@
       </el-carousel>
     </div>
     <div style="height: 1px; background: #ddd; margin: 10px 0"/>
-    <el-row :gutter="30">
-      <el-col :span="12">
-        <div style="padding: 5px 0; font-size: 20px">捐赠物品对应获得的公益积分</div>
-        <el-table :data="tableData" style="width: 62%">
-          <el-table-column prop="item" label="物品种类" width="180"> </el-table-column>
-          <el-table-column prop="grade" label="公益积分/斤" width="180"> </el-table-column>
-        </el-table>
-      </el-col>
-      <el-col :span="12">
-        <div style="padding: 5px 0; font-size: 20px">回收物品对应获得的公益积分</div>
-        <el-table :data="tableData1" style="width: 62%">
-          <el-table-column prop="item" label="物品种类" width="180"> </el-table-column>
-          <el-table-column prop="grade" label="公益积分/斤" width="180"> </el-table-column>
-        </el-table>
-      </el-col>
-    </el-row>
-
-
   </div>
 </template>
 
@@ -39,10 +21,10 @@ export default {
     return {
       user: localStorage.getItem("user") ? JSON.parse(localStorage.getItem("user")) : {},
       imgList:[
-        {id:0,idView:require('D:\\CodeProject\\毕设后台\\Graduation System\\files\\公益背景.jpg')},
-        {id:1,idView:require('D:\\CodeProject\\毕设后台\\Graduation System\\files\\绿色.jpg')},
-        {id:2,idView:require('D:\\CodeProject\\毕设后台\\Graduation System\\files\\绿色1.jpg')},
-        {id:3,idView:require('D:\\CodeProject\\毕设后台\\Graduation System\\files\\爱心文摘.png')}
+        {id:0,idView:require('E:\\CodeProject\\SaaS\\files\\公益背景.jpg')},
+        {id:1,idView:require('E:\\CodeProject\\SaaS\\files\\绿色.jpg')},
+        {id:2,idView:require('E:\\CodeProject\\SaaS\\files\\绿色1.jpg')},
+        {id:3,idView:require('E:\\CodeProject\\SaaS\\files\\爱心文摘.png')}
       ],
       tableData:[],
       tableData1:[],

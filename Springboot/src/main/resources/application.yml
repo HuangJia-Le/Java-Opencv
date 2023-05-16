@@ -18,5 +18,5 @@ mybatis-plus:
 
 files:
   upload:
-    path: D:/CodeProject/SaaS/files/
+    path: E:/CodeProject/SaaS/files/
 #    path: /home/files/

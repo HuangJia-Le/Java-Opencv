@@ -36,12 +36,11 @@ public class ThresholdController {
     //处理函数
     @GetMapping("/process")
     public Result thresholdProcess(@RequestParam String imgurl){
-        System.load("D:\\Application\\opencv\\opencv\\build\\java\\x64\\opencv_java454.dll");
-        String filepath= "D:\\CodeProject\\SaaS\\files\\"+imgurl.substring(27,63);
+        System.load("E:\\Application\\opencv\\opencv\\build\\java\\x64\\opencv_java454.dll");
+        String filepath= "E:\\CodeProject\\SaaS\\files\\"+imgurl.substring(27,imgurl.length());
         Mat src = Imgcodecs.imread(filepath,0);
         Imgproc.threshold(src, src, 125, 255, Imgproc.THRESH_BINARY);
-        Imgcodecs.imwrite("D:\\CodeProject\\SaaS\\files\\1.jpg",src);
+        Imgcodecs.imwrite("E:\\CodeProject\\SaaS\\files\\1.jpg",src);
         return Result.success();
     }
 }
-

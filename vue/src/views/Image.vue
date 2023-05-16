@@ -3,7 +3,7 @@
     <div>
       <el-row :gutter="10" class="el-row" type="flex">
         <el-col>
-          <el-card class="box-card" shadow="hover" >
+          <el-card class="box-card" shadow="hover">
             <template #header>
               <div class="card-header">
                 <span>图片处理</span>
@@ -37,8 +37,8 @@
               <div class="demo-image__preview">
                 <el-image
                     style="width: 440px; height: 300px"
-                    :src="require('D:\\CodeProject\\SaaS\\files\\1.jpg')"
-                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\1.jpg')]"
+                    :src="require('E:\\CodeProject\\SaaS\\files\\1.jpg')"
+                    :preview-src-list="[require('E:\\CodeProject\\SaaS\\files\\1.jpg')]"
                 >
                 </el-image>
               </div>
@@ -58,8 +58,8 @@
               <div class="demo-image__preview">
                 <el-image
                     style="width: 440px; height: 300px"
-                    :src="require('D:\\CodeProject\\SaaS\\files\\2.jpg')"
-                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\2.jpg')]"
+                    :src="require('E:\\CodeProject\\SaaS\\files\\2.jpg')"
+                    :preview-src-list="[require('E:\\CodeProject\\SaaS\\files\\2.jpg')]"
                 >
                 </el-image>
               </div>
@@ -83,8 +83,8 @@
               <div class="demo-image__preview">
                 <el-image
                     style="width: 440px; height: 300px"
-                    :src="require('D:\\CodeProject\\SaaS\\files\\3.jpg')"
-                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\3.jpg')]"
+                    :src="require('E:\\CodeProject\\SaaS\\files\\3.jpg')"
+                    :preview-src-list="[require('E:\\CodeProject\\SaaS\\files\\3.jpg')]"
                 >
                 </el-image>
               </div>
@@ -104,8 +104,8 @@
               <div class="demo-image__preview">
                 <el-image
                     style="width: 440px; height: 300px"
-                    :src="require('D:\\CodeProject\\SaaS\\files\\4.jpg')"
-                    :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\4.jpg')]"
+                    :src="require('E:\\CodeProject\\SaaS\\files\\4.jpg')"
+                    :preview-src-list="[require('E:\\CodeProject\\SaaS\\files\\4.jpg')]"
                 >
                 </el-image>
               </div>
@@ -125,8 +125,8 @@
             <div class="demo-image__preview">
               <el-image
                   style="width: 440px; height: 300px"
-                  :src="require('D:\\CodeProject\\SaaS\\files\\5.jpg')"
-                  :preview-src-list="[require('D:\\CodeProject\\SaaS\\files\\5.jpg')]"
+                  :src="require('E:\\CodeProject\\SaaS\\files\\5.jpg')"
+                  :preview-src-list="[require('E:\\CodeProject\\SaaS\\files\\5.jpg')]"
               >
               </el-image>
             </div>
