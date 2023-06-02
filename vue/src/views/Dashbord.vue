@@ -19,7 +19,7 @@
       </el-col>
       <el-col :span="6">
         <el-card style="color: #67C23A">
-          <div><i class="el-icon-bank-card" /> 慈善团体</div>
+          <div><i class="el-icon-bank-card" /> 高校团体</div>
           <div style="padding: 10px 0; text-align: center; font-weight: bold">
             <span>{{charity}}</span>
           </div>
@@ -27,7 +27,7 @@
       </el-col>
       <el-col :span="6">
         <el-card style="color: #E6A23C">
-          <div><i class="el-icon-s-shop" /> 回收公司</div>
+          <div><i class="el-icon-s-shop" /> 企业用户</div>
           <div style="padding: 10px 0; text-align: center; font-weight: bold">
             <span>{{recycle}}</span>
           </div>
@@ -45,7 +45,7 @@
       </el-col>
       <el-col :span="6">
         <el-card style="color: #F56C6C">
-          <div><i class="el-icon-money" /> 慈善订单</div>
+          <div><i class="el-icon-money" /> 普通订单</div>
           <div style="padding: 10px 0; text-align: center; font-weight: bold">
             <span>{{Charity}}</span>
           </div>
@@ -53,7 +53,7 @@
       </el-col>
       <el-col :span="6">
         <el-card style="color: #67C23A">
-          <div><i class="el-icon-bank-card" /> 回收订单</div>
+          <div><i class="el-icon-bank-card" /> 高校订单</div>
           <div style="padding: 10px 0; text-align: center; font-weight: bold">
             <span>{{Recycle}}</span>
           </div>
@@ -61,7 +61,7 @@
       </el-col>
       <el-col :span="6">
         <el-card style="color: #E6A23C">
-          <div><i class="el-icon-s-shop" /> 慈善商城订单</div>
+          <div><i class="el-icon-s-shop" /> 企业订单</div>
           <div style="padding: 10px 0; text-align: center; font-weight: bold">
             <span>{{Other}}</span>
           </div>

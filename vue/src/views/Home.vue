@@ -1,7 +1,7 @@
 <template>
   <div style="color: #666;font-size: 14px;">
     <div style="padding-bottom: 20px;  font-size: 20px">
-      <b>欢迎你来到图像SAAS系统！{{ user.nickname }}   有事请联系管理员</b>
+      <b>欢迎你来到智凌霄管理员系统！{{ user.nickname }}   有事请联系管理员</b>
     </div>
     <div class="block">
       <el-carousel height="500px">

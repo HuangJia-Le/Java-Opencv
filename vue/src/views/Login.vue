@@ -4,7 +4,10 @@
       <div  class="filter">
         <div style="width: 400px; margin: 300px auto">
           <el-form :model="user" :rules="rules" ref="userForm"  class="login-form">
-            <div class="title"><b>图像SaaS平台</b></div>
+            <div class="title">
+              <img src="../assets/logo.png" alt="" style="width: 40px; position: relative; top: 10px;">
+              <b>图像SaaS平台</b>
+            </div>
             <el-form-item prop="username">
               <el-input size="medium" style="margin: 10px 0" prefix-icon="el-icon-user" v-model="user.username" placeholder="请输入账号"></el-input>
             </el-form-item>
@@ -33,9 +36,11 @@
 <script>
 import {setRoutes} from "@/router";
 import ValidCode from "@/components/ValidCode";
+import Image from "@/views/Image";
 export default {
   name: "Login",
   components: {
+    Image,
     ValidCode
   },
   data() {
