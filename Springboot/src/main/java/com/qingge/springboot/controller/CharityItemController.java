@@ -34,7 +34,7 @@ public class CharityItemController {
     @Value("${server.port}")
     private String port;
 
-    private static final String ip="http://localhost";
+    private static final String ip="http://192.168.101.165";
     // 新增或者更新
     @PostMapping
     public Result save(@RequestBody CharityItem charityItem) {

@@ -1,10 +1,10 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : localhost_3306
+ Source Server         : 192.168.101.165_3306
  Source Server Type    : MySQL
  Source Server Version : 80027
- Source Host           : localhost:3306
+ Source Host           : 192.168.101.165:3306
  Source Schema         : green-recycle
 
  Target Server Type    : MySQL
@@ -100,15 +100,15 @@ CREATE TABLE `charity_item`  (
 -- ----------------------------
 -- Records of charity_item
 -- ----------------------------
-INSERT INTO `charity_item` VALUES (1, '拯救者笔记本电脑', 60000, 'http://localhost:9090/file/b5d5fe21e7db4c5bbad850b67c29dd43.jpg', 14, '21款拯救者R9000P，3060显卡+R7 5800CPU，你值得拥有');
-INSERT INTO `charity_item` VALUES (2, '戴尔G15', 50000, 'http://localhost:9090/file/53b1b42113334f628f90fa75296dade5.jpg', 20, '21款戴尔G15 3060显卡+11代 i7 CPU，你值得拥有');
-INSERT INTO `charity_item` VALUES (3, 'airPods3', 16000, 'http://localhost:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', 1, '有AirPods半入耳式的舒适性，又支持动态头部追踪的空间音频。');
-INSERT INTO `charity_item` VALUES (4, '雨伞', 2000, 'http://localhost:9090/file/1e3bbe3f9c274baea7a14c2de57292ee.jpg', 20, '雨伞 太阳伞防晒防紫外线折叠手动晴雨伞');
-INSERT INTO `charity_item` VALUES (5, '平底锅', 6000, 'http://localhost:9090/file/5a8b256faa6e42e7b9a9156c9d8c14e1.jpg', 5, 'DEP-DS179炒锅无涂层不粘炒菜锅口径32cm');
-INSERT INTO `charity_item` VALUES (6, '抽纸', 500, 'http://localhost:9090/file/c8b23e953cca486d9681c0ef8272bb54.jpg', 8, '开心朵朵 10包装木浆抽纸纸巾餐巾卫生纸面巾纸');
-INSERT INTO `charity_item` VALUES (7, '保温杯', 3000, 'http://localhost:9090/file/0e78091353e54da1b0781ce420a64895.jpg', 5, '千雨森 304不锈钢茶杯弹跳杯保温壶保温杯500ML水杯子NY369');
-INSERT INTO `charity_item` VALUES (8, '时钟', 1500, 'http://localhost:9090/file/5bf3ffed4b7a446f8a8ddd0ea46718ff.jpg', 10, '星空宇宙闹钟 儿童学生卡通小闹钟简约床头静音钟表时钟');
-INSERT INTO `charity_item` VALUES (9, '砂锅', 15000, 'http://localhost:9090/file/6042b7a3abc247d3ab70eb541745aa16.jpg', 6, '康巴赫2.5L陶瓷煲砂锅汤锅养生煮粥炖汤中药锅BTCS4L');
+INSERT INTO `charity_item` VALUES (1, '拯救者笔记本电脑', 60000, 'http://192.168.101.165:9090/file/b5d5fe21e7db4c5bbad850b67c29dd43.jpg', 14, '21款拯救者R9000P，3060显卡+R7 5800CPU，你值得拥有');
+INSERT INTO `charity_item` VALUES (2, '戴尔G15', 50000, 'http://192.168.101.165:9090/file/53b1b42113334f628f90fa75296dade5.jpg', 20, '21款戴尔G15 3060显卡+11代 i7 CPU，你值得拥有');
+INSERT INTO `charity_item` VALUES (3, 'airPods3', 16000, 'http://192.168.101.165:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', 1, '有AirPods半入耳式的舒适性，又支持动态头部追踪的空间音频。');
+INSERT INTO `charity_item` VALUES (4, '雨伞', 2000, 'http://192.168.101.165:9090/file/1e3bbe3f9c274baea7a14c2de57292ee.jpg', 20, '雨伞 太阳伞防晒防紫外线折叠手动晴雨伞');
+INSERT INTO `charity_item` VALUES (5, '平底锅', 6000, 'http://192.168.101.165:9090/file/5a8b256faa6e42e7b9a9156c9d8c14e1.jpg', 5, 'DEP-DS179炒锅无涂层不粘炒菜锅口径32cm');
+INSERT INTO `charity_item` VALUES (6, '抽纸', 500, 'http://192.168.101.165:9090/file/c8b23e953cca486d9681c0ef8272bb54.jpg', 8, '开心朵朵 10包装木浆抽纸纸巾餐巾卫生纸面巾纸');
+INSERT INTO `charity_item` VALUES (7, '保温杯', 3000, 'http://192.168.101.165:9090/file/0e78091353e54da1b0781ce420a64895.jpg', 5, '千雨森 304不锈钢茶杯弹跳杯保温壶保温杯500ML水杯子NY369');
+INSERT INTO `charity_item` VALUES (8, '时钟', 1500, 'http://192.168.101.165:9090/file/5bf3ffed4b7a446f8a8ddd0ea46718ff.jpg', 10, '星空宇宙闹钟 儿童学生卡通小闹钟简约床头静音钟表时钟');
+INSERT INTO `charity_item` VALUES (9, '砂锅', 15000, 'http://192.168.101.165:9090/file/6042b7a3abc247d3ab70eb541745aa16.jpg', 6, '康巴赫2.5L陶瓷煲砂锅汤锅养生煮粥炖汤中药锅BTCS4L');
 
 -- ----------------------------
 -- Table structure for item_type
@@ -244,69 +244,69 @@ CREATE TABLE `sys_file`  (
 -- ----------------------------
 -- Records of sys_file
 -- ----------------------------
-INSERT INTO `sys_file` VALUES (32, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://localhost:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 0, 1);
-INSERT INTO `sys_file` VALUES (33, 'scratches.jpg', 'jpg', 338, 'http://localhost:9090/file/dff1b46d5f2b4ec0b949980346b0445e.jpg', '7df270705409a131438e771365091317', 0, 1);
-INSERT INTO `sys_file` VALUES (34, 'defaultRig.jpg', 'jpg', 142, 'http://localhost:9090/file/d610c275a07f45f29238de4039bd38c9.jpg', '8b2317fad09b333bbb219625297fff5c', 0, 1);
-INSERT INTO `sys_file` VALUES (35, 'preview.jpg', 'jpg', 30, 'http://localhost:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
-INSERT INTO `sys_file` VALUES (36, 'preview.jpg', 'jpg', 30, 'http://localhost:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
-INSERT INTO `sys_file` VALUES (37, 'preview.jpg', 'jpg', 30, 'http://localhost:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
-INSERT INTO `sys_file` VALUES (38, 'preview.jpg', 'jpg', 30, 'http://localhost:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
-INSERT INTO `sys_file` VALUES (39, 'ws_1373816444_thumb.jpg', 'jpg', 37, 'http://localhost:9090/file/f1ca81e5d0d7465b95c2cd2cbe473666.jpg', '1364f8da79898283a1305a0ba7aa9532', 0, 1);
-INSERT INTO `sys_file` VALUES (40, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
-INSERT INTO `sys_file` VALUES (41, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
-INSERT INTO `sys_file` VALUES (42, 'ws_1998092740_thumb.jpg', 'jpg', 44, 'http://localhost:9090/file/08501466ad084d05942534c06cf0a16f.jpg', 'c556feeb568f9600e47aaadd110e0f4d', 0, 1);
-INSERT INTO `sys_file` VALUES (43, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
-INSERT INTO `sys_file` VALUES (44, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
-INSERT INTO `sys_file` VALUES (45, 'ws_2552321594_thumb.jpg', 'jpg', 36, 'http://localhost:9090/file/acc2d5567e0b4ff5a8e9f57163639722.jpg', '666a4c0391503b261609c3341895e7e2', 0, 1);
-INSERT INTO `sys_file` VALUES (46, 'ws_2552321594_thumb.jpg', 'jpg', 36, 'http://localhost:9090/file/acc2d5567e0b4ff5a8e9f57163639722.jpg', '666a4c0391503b261609c3341895e7e2', 0, 1);
-INSERT INTO `sys_file` VALUES (47, 'ws_2552321594_thumb.jpg', 'jpg', 36, 'http://localhost:9090/file/acc2d5567e0b4ff5a8e9f57163639722.jpg', '666a4c0391503b261609c3341895e7e2', 0, 1);
-INSERT INTO `sys_file` VALUES (48, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
-INSERT INTO `sys_file` VALUES (49, 'ws_2222111958_thumb.jpg', 'jpg', 35, 'http://localhost:9090/file/1ee9518a1904422980609c6cd6c3784c.jpg', '5b4b40b606d11e4a45e8850f821b1dbb', 1, 1);
-INSERT INTO `sys_file` VALUES (50, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 1, 1);
-INSERT INTO `sys_file` VALUES (51, 'scratches.jpg', 'jpg', 338, 'http://localhost:9090/file/dff1b46d5f2b4ec0b949980346b0445e.jpg', '7df270705409a131438e771365091317', 1, 1);
-INSERT INTO `sys_file` VALUES (52, 'preview.jpg', 'jpg', 479, 'http://localhost:9090/file/0113ef5b5c4e4587bf96b183886d8a19.jpg', '67ff0f4e52a7b0057ca4fdbddac9234e', 1, 1);
-INSERT INTO `sys_file` VALUES (53, '1.jpg', 'jpg', 71, 'http://localhost:9090/file/19a91bdce805487ba4d6ecd59422b48a.jpg', 'db35bfa02778d0cb316e57817600d148', 1, 1);
-INSERT INTO `sys_file` VALUES (54, 'preview.jpg', 'jpg', 185, 'http://localhost:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
-INSERT INTO `sys_file` VALUES (55, 'preview.jpg', 'jpg', 185, 'http://localhost:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
-INSERT INTO `sys_file` VALUES (56, 'preview.jpg', 'jpg', 185, 'http://localhost:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
-INSERT INTO `sys_file` VALUES (57, 'preview.jpg', 'jpg', 185, 'http://localhost:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
-INSERT INTO `sys_file` VALUES (58, 'preview.jpg', 'jpg', 185, 'http://localhost:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
-INSERT INTO `sys_file` VALUES (59, 'preview.jpg', 'jpg', 177, 'http://localhost:9090/file/9d9464d865ca42febcbba91a343de5fc.jpg', '387f588df434cc7b348afabe425b1ce6', 1, 1);
-INSERT INTO `sys_file` VALUES (60, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://localhost:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 1, 1);
-INSERT INTO `sys_file` VALUES (61, 'gfn-background.jpg', 'jpg', 111, 'http://localhost:9090/file/c9b1d90a07c54aa2abea07399ebb6a96.jpg', 'f67515e75b9ad32d49df6e6082598f30', 1, 1);
-INSERT INTO `sys_file` VALUES (62, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://localhost:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 1, 1);
-INSERT INTO `sys_file` VALUES (63, 'scratches.jpg', 'jpg', 338, 'http://localhost:9090/file/dff1b46d5f2b4ec0b949980346b0445e.jpg', '7df270705409a131438e771365091317', 0, 1);
-INSERT INTO `sys_file` VALUES (64, 'gfn-background.jpg', 'jpg', 111, 'http://localhost:9090/file/c9b1d90a07c54aa2abea07399ebb6a96.jpg', 'f67515e75b9ad32d49df6e6082598f30', 0, 1);
-INSERT INTO `sys_file` VALUES (65, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://localhost:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 0, 1);
-INSERT INTO `sys_file` VALUES (66, '爱心文摘.png', 'png', 730, 'http://localhost:9090/file/449050282e5f4cadb002e670fbbe0893.png', '69d55bc18f9bbf71f218c932d8b918c3', 0, 1);
-INSERT INTO `sys_file` VALUES (67, '戴尔g15.jpg', 'jpg', 355, 'http://localhost:9090/file/53b1b42113334f628f90fa75296dade5.jpg', 'b1fbadd86e2082089962005069a0b101', 0, 1);
-INSERT INTO `sys_file` VALUES (68, '拯救者R9000p.jpg', 'jpg', 293, 'http://localhost:9090/file/b5d5fe21e7db4c5bbad850b67c29dd43.jpg', '6e113c22486ed2bd090cd42fc2281d97', 0, 1);
-INSERT INTO `sys_file` VALUES (69, 'b9e6b3c6874d5bd1aad798f4963cbd4e.jpeg', 'jpeg', 16, 'http://localhost:9090/file/58180e94fef544fc94f0cb5cb1078c36.jpeg', '6ba65a19de261963f3de0dd681bf627f', 0, 1);
-INSERT INTO `sys_file` VALUES (70, 'airpods.jpg', 'jpg', 28, 'http://localhost:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', '8563c505cf2e92302bb8ad22e76292d8', 0, 1);
-INSERT INTO `sys_file` VALUES (71, 'airpods.jpg', 'jpg', 28, 'http://localhost:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', '8563c505cf2e92302bb8ad22e76292d8', 0, 1);
-INSERT INTO `sys_file` VALUES (72, 'airpods.jpg', 'jpg', 28, 'http://localhost:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', '8563c505cf2e92302bb8ad22e76292d8', 0, 1);
-INSERT INTO `sys_file` VALUES (73, '雨伞.jpg', 'jpg', 145, 'http://localhost:9090/file/1e3bbe3f9c274baea7a14c2de57292ee.jpg', '5079062c20c6206c69177bc768432626', 0, 1);
-INSERT INTO `sys_file` VALUES (74, '锅.jpg', 'jpg', 302, 'http://localhost:9090/file/756811685c3b4a218684d57bb193adf7.jpg', 'f68d720c0a170522b63ff8ff49dfd7fa', 0, 1);
-INSERT INTO `sys_file` VALUES (75, '抽纸.jpg', 'jpg', 50, 'http://localhost:9090/file/cac59d052d184d77a40aedeba8ca6710.jpg', '8a0424b205fa1829d2051dc36f854f48', 0, 1);
-INSERT INTO `sys_file` VALUES (76, '保温杯.jpg', 'jpg', 99, 'http://localhost:9090/file/f368e3bc3f994585b3091cb0cae328bc.jpg', '895d6a35394787791725119507781840', 0, 1);
-INSERT INTO `sys_file` VALUES (77, '时钟.jpg', 'jpg', 70, 'http://localhost:9090/file/5bf3ffed4b7a446f8a8ddd0ea46718ff.jpg', '7ee8aca3f316622f25fffb49f393bc0b', 0, 1);
-INSERT INTO `sys_file` VALUES (78, '1651027401447.jpg', 'jpg', 18, 'http://localhost:9090/file/6042b7a3abc247d3ab70eb541745aa16.jpg', 'e63a08cd6cacc29179dfb11c3c15dbd3', 0, 1);
-INSERT INTO `sys_file` VALUES (79, '1651027549395.jpg', 'jpg', 10, 'http://localhost:9090/file/0e78091353e54da1b0781ce420a64895.jpg', '8b7096c47488af80f24e74f1431eb921', 0, 1);
-INSERT INTO `sys_file` VALUES (80, '1651027630291.jpg', 'jpg', 27, 'http://localhost:9090/file/c8b23e953cca486d9681c0ef8272bb54.jpg', 'dd280c5b4862fa2b951a8db0adf41bca', 0, 1);
-INSERT INTO `sys_file` VALUES (81, '1651027630291.jpg', 'jpg', 27, 'http://localhost:9090/file/c8b23e953cca486d9681c0ef8272bb54.jpg', 'dd280c5b4862fa2b951a8db0adf41bca', 0, 1);
-INSERT INTO `sys_file` VALUES (82, '1651027933365.jpg', 'jpg', 19, 'http://localhost:9090/file/5a8b256faa6e42e7b9a9156c9d8c14e1.jpg', '66dafad57e8b47b4704dc513633ffb0d', 0, 1);
-INSERT INTO `sys_file` VALUES (83, 'huanbao-003.jpg', 'jpg', 304, 'http://localhost:9090/file/db36e1628c824865a1cf776563ebd860.jpg', '912cc865243e7a7b484bbd7bbe055537', 0, 1);
-INSERT INTO `sys_file` VALUES (84, 'logo.png', 'png', 7, 'http://localhost:9090/file/157663cd07e042ed81dea0d9bf119dfc.png', '79cb433d1cf6a3824cb6fddb599ac58f', 0, 1);
-INSERT INTO `sys_file` VALUES (85, 'GreenScreenBG02.jpg', 'jpg', 488, 'http://localhost:9090/file/337f00b382074ab2bad93781690401cb.jpg', 'f898cb40caf92667ab94aaf64cede23f', 0, 1);
-INSERT INTO `sys_file` VALUES (86, 'src=http___act.mirrorcn.com_upload_images_2014_8_11_1122388362.png&refer=http___act.mirrorcn.webp', 'webp', 16, 'http://localhost:9090/file/9d60719ff4e54c319a2d9d5bf9f15c30.webp', '07156285ce077a3a12e37e3bb9bd00f4', 0, 1);
-INSERT INTO `sys_file` VALUES (87, 'src=http___p7.itc.cn_q_70_images03_20210618_455723a35ea4493ea13ea10ba05020d5.png&refer=http___p7.itc.webp', 'webp', 11, 'http://localhost:9090/file/b78bc065fd554bc09a0790ecb371f7a7.webp', '7e242a316c9de607f4d5ed46cf9b2ba4', 0, 1);
-INSERT INTO `sys_file` VALUES (88, 'src=http___pic.nipic.com_2008-05-23_200852321529832_2.jpg&refer=http___pic.nipic.webp', 'webp', 23, 'http://localhost:9090/file/d5ea21c43fa04ad29c00909f82a28a86.webp', '8c99c2f6f9d3bf7b363a79b844765545', 0, 1);
-INSERT INTO `sys_file` VALUES (89, 'src=http___p.ananas.chaoxing.com_star_1024_0_1384609964041azpcf.jpg&refer=http___p.ananas.chaoxing.webp', 'webp', 35, 'http://localhost:9090/file/1bed873ea44d47ecba761b80b3009faf.webp', 'c880765583594a9156cdf56e57361886', 0, 1);
-INSERT INTO `sys_file` VALUES (90, 'src=http___www.xiesh.cn_uploadfile_imgall_faedab64034f78f0f7af472777310a55b2191cb9.jpg&refer=http___www.xiesh.webp', 'webp', 15, 'http://localhost:9090/file/47300633950e4f77a227e4d9b6ebe868.webp', 'afe124986f19304901c6988acc97a407', 0, 1);
-INSERT INTO `sys_file` VALUES (91, 'src=http___x0.ifengimg.com_res_2019_8CE51CA3538E51F18E053326F869995065CF33ED_size37_w750_h618.jpeg&refer=http___x0.ifengimg.webp', 'webp', 16, 'http://localhost:9090/file/c2bbcd8b689b48d98833ab78a2b80363.webp', 'cfd3c9936815fbe900d99a8109ba5cb2', 0, 1);
-INSERT INTO `sys_file` VALUES (92, '6a600c338744ebf8aee2dae6d5f9d72a6159a75c.jpg', 'jpg', 73, 'http://localhost:9090/file/a9e0c6455e294953b1904cfe94a7b8c0.jpg', '8dfd917f33ea4c3c1cfb57b281656082', 0, 1);
-INSERT INTO `sys_file` VALUES (93, '锅.jpg', 'jpg', 302, 'http://localhost:9090/file/756811685c3b4a218684d57bb193adf7.jpg', 'f68d720c0a170522b63ff8ff49dfd7fa', 0, 1);
-INSERT INTO `sys_file` VALUES (94, '1.jpg', 'jpg', 304, 'http://localhost:9090/file/db36e1628c824865a1cf776563ebd860.jpg', '912cc865243e7a7b484bbd7bbe055537', 0, 1);
+INSERT INTO `sys_file` VALUES (32, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://192.168.101.165:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 0, 1);
+INSERT INTO `sys_file` VALUES (33, 'scratches.jpg', 'jpg', 338, 'http://192.168.101.165:9090/file/dff1b46d5f2b4ec0b949980346b0445e.jpg', '7df270705409a131438e771365091317', 0, 1);
+INSERT INTO `sys_file` VALUES (34, 'defaultRig.jpg', 'jpg', 142, 'http://192.168.101.165:9090/file/d610c275a07f45f29238de4039bd38c9.jpg', '8b2317fad09b333bbb219625297fff5c', 0, 1);
+INSERT INTO `sys_file` VALUES (35, 'preview.jpg', 'jpg', 30, 'http://192.168.101.165:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
+INSERT INTO `sys_file` VALUES (36, 'preview.jpg', 'jpg', 30, 'http://192.168.101.165:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
+INSERT INTO `sys_file` VALUES (37, 'preview.jpg', 'jpg', 30, 'http://192.168.101.165:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
+INSERT INTO `sys_file` VALUES (38, 'preview.jpg', 'jpg', 30, 'http://192.168.101.165:9090/file/97391e467fea4539983673d3cb8b82c6.jpg', '4b35d5af14e32c5ec85eaaa405ee4523', 0, 1);
+INSERT INTO `sys_file` VALUES (39, 'ws_1373816444_thumb.jpg', 'jpg', 37, 'http://192.168.101.165:9090/file/f1ca81e5d0d7465b95c2cd2cbe473666.jpg', '1364f8da79898283a1305a0ba7aa9532', 0, 1);
+INSERT INTO `sys_file` VALUES (40, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
+INSERT INTO `sys_file` VALUES (41, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
+INSERT INTO `sys_file` VALUES (42, 'ws_1998092740_thumb.jpg', 'jpg', 44, 'http://192.168.101.165:9090/file/08501466ad084d05942534c06cf0a16f.jpg', 'c556feeb568f9600e47aaadd110e0f4d', 0, 1);
+INSERT INTO `sys_file` VALUES (43, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
+INSERT INTO `sys_file` VALUES (44, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
+INSERT INTO `sys_file` VALUES (45, 'ws_2552321594_thumb.jpg', 'jpg', 36, 'http://192.168.101.165:9090/file/acc2d5567e0b4ff5a8e9f57163639722.jpg', '666a4c0391503b261609c3341895e7e2', 0, 1);
+INSERT INTO `sys_file` VALUES (46, 'ws_2552321594_thumb.jpg', 'jpg', 36, 'http://192.168.101.165:9090/file/acc2d5567e0b4ff5a8e9f57163639722.jpg', '666a4c0391503b261609c3341895e7e2', 0, 1);
+INSERT INTO `sys_file` VALUES (47, 'ws_2552321594_thumb.jpg', 'jpg', 36, 'http://192.168.101.165:9090/file/acc2d5567e0b4ff5a8e9f57163639722.jpg', '666a4c0391503b261609c3341895e7e2', 0, 1);
+INSERT INTO `sys_file` VALUES (48, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 0, 1);
+INSERT INTO `sys_file` VALUES (49, 'ws_2222111958_thumb.jpg', 'jpg', 35, 'http://192.168.101.165:9090/file/1ee9518a1904422980609c6cd6c3784c.jpg', '5b4b40b606d11e4a45e8850f821b1dbb', 1, 1);
+INSERT INTO `sys_file` VALUES (50, 'ws_2284744546_thumb.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg', 'ba0f5c8ddd044ca6b9c369e694a4c01f', 1, 1);
+INSERT INTO `sys_file` VALUES (51, 'scratches.jpg', 'jpg', 338, 'http://192.168.101.165:9090/file/dff1b46d5f2b4ec0b949980346b0445e.jpg', '7df270705409a131438e771365091317', 1, 1);
+INSERT INTO `sys_file` VALUES (52, 'preview.jpg', 'jpg', 479, 'http://192.168.101.165:9090/file/0113ef5b5c4e4587bf96b183886d8a19.jpg', '67ff0f4e52a7b0057ca4fdbddac9234e', 1, 1);
+INSERT INTO `sys_file` VALUES (53, '1.jpg', 'jpg', 71, 'http://192.168.101.165:9090/file/19a91bdce805487ba4d6ecd59422b48a.jpg', 'db35bfa02778d0cb316e57817600d148', 1, 1);
+INSERT INTO `sys_file` VALUES (54, 'preview.jpg', 'jpg', 185, 'http://192.168.101.165:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
+INSERT INTO `sys_file` VALUES (55, 'preview.jpg', 'jpg', 185, 'http://192.168.101.165:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
+INSERT INTO `sys_file` VALUES (56, 'preview.jpg', 'jpg', 185, 'http://192.168.101.165:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
+INSERT INTO `sys_file` VALUES (57, 'preview.jpg', 'jpg', 185, 'http://192.168.101.165:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
+INSERT INTO `sys_file` VALUES (58, 'preview.jpg', 'jpg', 185, 'http://192.168.101.165:9090/file/0eb21916d06449d283bb3301e1d88a28.jpg', '32eb9c3c3e29129ddf6bbeb562145a4d', 1, 1);
+INSERT INTO `sys_file` VALUES (59, 'preview.jpg', 'jpg', 177, 'http://192.168.101.165:9090/file/9d9464d865ca42febcbba91a343de5fc.jpg', '387f588df434cc7b348afabe425b1ce6', 1, 1);
+INSERT INTO `sys_file` VALUES (60, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://192.168.101.165:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 1, 1);
+INSERT INTO `sys_file` VALUES (61, 'gfn-background.jpg', 'jpg', 111, 'http://192.168.101.165:9090/file/c9b1d90a07c54aa2abea07399ebb6a96.jpg', 'f67515e75b9ad32d49df6e6082598f30', 1, 1);
+INSERT INTO `sys_file` VALUES (62, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://192.168.101.165:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 1, 1);
+INSERT INTO `sys_file` VALUES (63, 'scratches.jpg', 'jpg', 338, 'http://192.168.101.165:9090/file/dff1b46d5f2b4ec0b949980346b0445e.jpg', '7df270705409a131438e771365091317', 0, 1);
+INSERT INTO `sys_file` VALUES (64, 'gfn-background.jpg', 'jpg', 111, 'http://192.168.101.165:9090/file/c9b1d90a07c54aa2abea07399ebb6a96.jpg', 'f67515e75b9ad32d49df6e6082598f30', 0, 1);
+INSERT INTO `sys_file` VALUES (65, 'GreenScreenBG01.jpg', 'jpg', 274, 'http://192.168.101.165:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg', 'e3879f92944eb17d1e73283055e72dd7', 0, 1);
+INSERT INTO `sys_file` VALUES (66, '爱心文摘.png', 'png', 730, 'http://192.168.101.165:9090/file/449050282e5f4cadb002e670fbbe0893.png', '69d55bc18f9bbf71f218c932d8b918c3', 0, 1);
+INSERT INTO `sys_file` VALUES (67, '戴尔g15.jpg', 'jpg', 355, 'http://192.168.101.165:9090/file/53b1b42113334f628f90fa75296dade5.jpg', 'b1fbadd86e2082089962005069a0b101', 0, 1);
+INSERT INTO `sys_file` VALUES (68, '拯救者R9000p.jpg', 'jpg', 293, 'http://192.168.101.165:9090/file/b5d5fe21e7db4c5bbad850b67c29dd43.jpg', '6e113c22486ed2bd090cd42fc2281d97', 0, 1);
+INSERT INTO `sys_file` VALUES (69, 'b9e6b3c6874d5bd1aad798f4963cbd4e.jpeg', 'jpeg', 16, 'http://192.168.101.165:9090/file/58180e94fef544fc94f0cb5cb1078c36.jpeg', '6ba65a19de261963f3de0dd681bf627f', 0, 1);
+INSERT INTO `sys_file` VALUES (70, 'airpods.jpg', 'jpg', 28, 'http://192.168.101.165:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', '8563c505cf2e92302bb8ad22e76292d8', 0, 1);
+INSERT INTO `sys_file` VALUES (71, 'airpods.jpg', 'jpg', 28, 'http://192.168.101.165:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', '8563c505cf2e92302bb8ad22e76292d8', 0, 1);
+INSERT INTO `sys_file` VALUES (72, 'airpods.jpg', 'jpg', 28, 'http://192.168.101.165:9090/file/1a439f9bc8f540eb85e2f7aad3ab6f4d.jpg', '8563c505cf2e92302bb8ad22e76292d8', 0, 1);
+INSERT INTO `sys_file` VALUES (73, '雨伞.jpg', 'jpg', 145, 'http://192.168.101.165:9090/file/1e3bbe3f9c274baea7a14c2de57292ee.jpg', '5079062c20c6206c69177bc768432626', 0, 1);
+INSERT INTO `sys_file` VALUES (74, '锅.jpg', 'jpg', 302, 'http://192.168.101.165:9090/file/756811685c3b4a218684d57bb193adf7.jpg', 'f68d720c0a170522b63ff8ff49dfd7fa', 0, 1);
+INSERT INTO `sys_file` VALUES (75, '抽纸.jpg', 'jpg', 50, 'http://192.168.101.165:9090/file/cac59d052d184d77a40aedeba8ca6710.jpg', '8a0424b205fa1829d2051dc36f854f48', 0, 1);
+INSERT INTO `sys_file` VALUES (76, '保温杯.jpg', 'jpg', 99, 'http://192.168.101.165:9090/file/f368e3bc3f994585b3091cb0cae328bc.jpg', '895d6a35394787791725119507781840', 0, 1);
+INSERT INTO `sys_file` VALUES (77, '时钟.jpg', 'jpg', 70, 'http://192.168.101.165:9090/file/5bf3ffed4b7a446f8a8ddd0ea46718ff.jpg', '7ee8aca3f316622f25fffb49f393bc0b', 0, 1);
+INSERT INTO `sys_file` VALUES (78, '1651027401447.jpg', 'jpg', 18, 'http://192.168.101.165:9090/file/6042b7a3abc247d3ab70eb541745aa16.jpg', 'e63a08cd6cacc29179dfb11c3c15dbd3', 0, 1);
+INSERT INTO `sys_file` VALUES (79, '1651027549395.jpg', 'jpg', 10, 'http://192.168.101.165:9090/file/0e78091353e54da1b0781ce420a64895.jpg', '8b7096c47488af80f24e74f1431eb921', 0, 1);
+INSERT INTO `sys_file` VALUES (80, '1651027630291.jpg', 'jpg', 27, 'http://192.168.101.165:9090/file/c8b23e953cca486d9681c0ef8272bb54.jpg', 'dd280c5b4862fa2b951a8db0adf41bca', 0, 1);
+INSERT INTO `sys_file` VALUES (81, '1651027630291.jpg', 'jpg', 27, 'http://192.168.101.165:9090/file/c8b23e953cca486d9681c0ef8272bb54.jpg', 'dd280c5b4862fa2b951a8db0adf41bca', 0, 1);
+INSERT INTO `sys_file` VALUES (82, '1651027933365.jpg', 'jpg', 19, 'http://192.168.101.165:9090/file/5a8b256faa6e42e7b9a9156c9d8c14e1.jpg', '66dafad57e8b47b4704dc513633ffb0d', 0, 1);
+INSERT INTO `sys_file` VALUES (83, 'huanbao-003.jpg', 'jpg', 304, 'http://192.168.101.165:9090/file/db36e1628c824865a1cf776563ebd860.jpg', '912cc865243e7a7b484bbd7bbe055537', 0, 1);
+INSERT INTO `sys_file` VALUES (84, 'logo.png', 'png', 7, 'http://192.168.101.165:9090/file/157663cd07e042ed81dea0d9bf119dfc.png', '79cb433d1cf6a3824cb6fddb599ac58f', 0, 1);
+INSERT INTO `sys_file` VALUES (85, 'GreenScreenBG02.jpg', 'jpg', 488, 'http://192.168.101.165:9090/file/337f00b382074ab2bad93781690401cb.jpg', 'f898cb40caf92667ab94aaf64cede23f', 0, 1);
+INSERT INTO `sys_file` VALUES (86, 'src=http___act.mirrorcn.com_upload_images_2014_8_11_1122388362.png&refer=http___act.mirrorcn.webp', 'webp', 16, 'http://192.168.101.165:9090/file/9d60719ff4e54c319a2d9d5bf9f15c30.webp', '07156285ce077a3a12e37e3bb9bd00f4', 0, 1);
+INSERT INTO `sys_file` VALUES (87, 'src=http___p7.itc.cn_q_70_images03_20210618_455723a35ea4493ea13ea10ba05020d5.png&refer=http___p7.itc.webp', 'webp', 11, 'http://192.168.101.165:9090/file/b78bc065fd554bc09a0790ecb371f7a7.webp', '7e242a316c9de607f4d5ed46cf9b2ba4', 0, 1);
+INSERT INTO `sys_file` VALUES (88, 'src=http___pic.nipic.com_2008-05-23_200852321529832_2.jpg&refer=http___pic.nipic.webp', 'webp', 23, 'http://192.168.101.165:9090/file/d5ea21c43fa04ad29c00909f82a28a86.webp', '8c99c2f6f9d3bf7b363a79b844765545', 0, 1);
+INSERT INTO `sys_file` VALUES (89, 'src=http___p.ananas.chaoxing.com_star_1024_0_1384609964041azpcf.jpg&refer=http___p.ananas.chaoxing.webp', 'webp', 35, 'http://192.168.101.165:9090/file/1bed873ea44d47ecba761b80b3009faf.webp', 'c880765583594a9156cdf56e57361886', 0, 1);
+INSERT INTO `sys_file` VALUES (90, 'src=http___www.xiesh.cn_uploadfile_imgall_faedab64034f78f0f7af472777310a55b2191cb9.jpg&refer=http___www.xiesh.webp', 'webp', 15, 'http://192.168.101.165:9090/file/47300633950e4f77a227e4d9b6ebe868.webp', 'afe124986f19304901c6988acc97a407', 0, 1);
+INSERT INTO `sys_file` VALUES (91, 'src=http___x0.ifengimg.com_res_2019_8CE51CA3538E51F18E053326F869995065CF33ED_size37_w750_h618.jpeg&refer=http___x0.ifengimg.webp', 'webp', 16, 'http://192.168.101.165:9090/file/c2bbcd8b689b48d98833ab78a2b80363.webp', 'cfd3c9936815fbe900d99a8109ba5cb2', 0, 1);
+INSERT INTO `sys_file` VALUES (92, '6a600c338744ebf8aee2dae6d5f9d72a6159a75c.jpg', 'jpg', 73, 'http://192.168.101.165:9090/file/a9e0c6455e294953b1904cfe94a7b8c0.jpg', '8dfd917f33ea4c3c1cfb57b281656082', 0, 1);
+INSERT INTO `sys_file` VALUES (93, '锅.jpg', 'jpg', 302, 'http://192.168.101.165:9090/file/756811685c3b4a218684d57bb193adf7.jpg', 'f68d720c0a170522b63ff8ff49dfd7fa', 0, 1);
+INSERT INTO `sys_file` VALUES (94, '1.jpg', 'jpg', 304, 'http://192.168.101.165:9090/file/db36e1628c824865a1cf776563ebd860.jpg', '912cc865243e7a7b484bbd7bbe055537', 0, 1);
 
 -- ----------------------------
 -- Table structure for sys_menu
@@ -488,22 +488,22 @@ CREATE TABLE `sys_user`  (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES (1, 'admin', '123', '妖怪火锅', 'admin@qq.com', '13781562529', '河南郑州', '2022-01-22 21:10:27', 'ROLE_ADMIN', 85000, 'http://localhost:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg');
-INSERT INTO `sys_user` VALUES (16, '方方不方', '123456789', '方俊浩', '1062004520@qq.com', '13782162655', '河南南阳', '2022-02-26 22:10:14', 'ROLE_USER', 41500, 'http://localhost:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg');
-INSERT INTO `sys_user` VALUES (17, '黄黄不慌', '123456', '黄佳乐', '1722589735@qq.com', '15046449124', '河南商丘', '2022-02-26 22:10:18', 'ROLE_USER', 1000, 'http://localhost:9090/file/1ee9518a1904422980609c6cd6c3784c.jpg');
-INSERT INTO `sys_user` VALUES (18, '龙龙不聋', '123456', '贺旭龙', '2654952526@qq.com', '15642265446', '湖南株洲', '2022-03-29 16:59:44', 'ROLE_USER', 2000, 'http://localhost:9090/file/c9b1d90a07c54aa2abea07399ebb6a96.jpg');
+INSERT INTO `sys_user` VALUES (1, 'admin', '123', '妖怪火锅', 'admin@qq.com', '13781562529', '河南郑州', '2022-01-22 21:10:27', 'ROLE_ADMIN', 85000, 'http://192.168.101.165:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg');
+INSERT INTO `sys_user` VALUES (16, '方方不方', '123456789', '方俊浩', '1062004520@qq.com', '13782162655', '河南南阳', '2022-02-26 22:10:14', 'ROLE_USER', 41500, 'http://192.168.101.165:9090/file/421bb4fdece040ff919d51cd95c978c4.jpg');
+INSERT INTO `sys_user` VALUES (17, '黄黄不慌', '123456', '黄佳乐', '1722589735@qq.com', '15046449124', '河南商丘', '2022-02-26 22:10:18', 'ROLE_USER', 1000, 'http://192.168.101.165:9090/file/1ee9518a1904422980609c6cd6c3784c.jpg');
+INSERT INTO `sys_user` VALUES (18, '龙龙不聋', '123456', '贺旭龙', '2654952526@qq.com', '15642265446', '湖南株洲', '2022-03-29 16:59:44', 'ROLE_USER', 2000, 'http://192.168.101.165:9090/file/c9b1d90a07c54aa2abea07399ebb6a96.jpg');
 INSERT INTO `sys_user` VALUES (19, '贾贾不假', '123', '贾洋', '3121515115@qq.com', '19261262156', '河南南阳', '2022-04-29 16:59:44', 'ROLE_USER', 1500, NULL);
 INSERT INTO `sys_user` VALUES (20, '张张不长', '123', '张康', '2154541544@qq.com', '17894665454', '河南商丘', '2022-05-29 17:12:04', 'ROLE_USER', 2000, NULL);
 INSERT INTO `sys_user` VALUES (25, '高高不高', '123456', '高恒', '1564654146@qq.com', '16249441841', '湖北武汉', '2022-06-08 17:00:47', 'ROLE_USER', 3000, NULL);
-INSERT INTO `sys_user` VALUES (26, '郑回收', '123456', '郑州回收公司', '1126565567@qq.com', '14945124546', '河南郑州', '2022-07-08 17:20:01', 'ROLE_RECYCLE', 4000, 'http://localhost:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg');
+INSERT INTO `sys_user` VALUES (26, '郑回收', '123456', '郑州回收公司', '1126565567@qq.com', '14945124546', '河南郑州', '2022-07-08 17:20:01', 'ROLE_RECYCLE', 4000, 'http://192.168.101.165:9090/file/34391fa51b5c4af39d4424fa2045d6c8.jpg');
 INSERT INTO `sys_user` VALUES (28, '常常不常', '123', '常强', '1665465266@qq.com', '15652656556', '陕西西安', '2022-11-09 10:41:07', 'ROLE_USER', 10000, NULL);
-INSERT INTO `sys_user` VALUES (29, '以足遍天下', '123', '中华慈善总会', 'ccf1997@126.com', '010-66083260', '河南郑州', '2022-12-10 11:53:31', 'ROLE_CHARITY', 1200, 'http://localhost:9090/file/47300633950e4f77a227e4d9b6ebe868.webp');
-INSERT INTO `sys_user` VALUES (30, '爱佑心', '123456', '爱佑慈善总会', 'ay@ayfoundation.org', '010-50948839', '北京市朝阳区阜通东大街1号望京SOHO-T3-B座609室', '2022-04-28 16:52:05', 'ROLE_CHARITY', 2000, 'http://localhost:9090/file/9d60719ff4e54c319a2d9d5bf9f15c30.webp');
-INSERT INTO `sys_user` VALUES (31, 'SCLF', '123456', '宋庆龄基金会', 'sclf@sclf.org', '010-86601927', '北京市东城区东安门大街82号院', '2022-04-28 16:58:40', 'ROLE_CHARITY', 3000, 'http://localhost:9090/file/b78bc065fd554bc09a0790ecb371f7a7.webp');
-INSERT INTO `sys_user` VALUES (32, 'CCATF', '123456', '中国儿童少年基金会', 'cctf@cctf.org.cn', '010-65285128', '北京市东城区建国门内大街15号全国妇联大楼主楼10层', '2022-04-28 17:00:46', 'ROLE_CHARITY', 3200, 'http://localhost:9090/file/1bed873ea44d47ecba761b80b3009faf.webp');
-INSERT INTO `sys_user` VALUES (33, '中国红十字会', '123456', '中国红十字会', NULL, '84025890', '北京市东城区北新桥三条8号 ', '2022-04-28 17:01:43', 'ROLE_CHARITY', 4000, 'http://localhost:9090/file/d5ea21c43fa04ad29c00909f82a28a86.webp');
-INSERT INTO `sys_user` VALUES (34, '中国再生资源回收利用协会', '123', '中国再生资源回收利用协会', NULL, '18810042527', '北京市西城区横二条2号华恒大厦6楼', '2022-04-28 17:03:23', 'ROLE_RECYCLE', 2500, 'http://localhost:9090/file/c2bbcd8b689b48d98833ab78a2b80363.webp');
-INSERT INTO `sys_user` VALUES (35, '飞蚂蚁', '123', '飞蚂蚁', 'fmy@fmy90.com', '4001-899-373', '上海善衣网络科技有限公司', '2022-04-28 17:07:05', 'ROLE_RECYCLE', 36000, 'http://localhost:9090/file/a9e0c6455e294953b1904cfe94a7b8c0.jpg');
+INSERT INTO `sys_user` VALUES (29, '以足遍天下', '123', '中华慈善总会', 'ccf1997@126.com', '010-66083260', '河南郑州', '2022-12-10 11:53:31', 'ROLE_CHARITY', 1200, 'http://192.168.101.165:9090/file/47300633950e4f77a227e4d9b6ebe868.webp');
+INSERT INTO `sys_user` VALUES (30, '爱佑心', '123456', '爱佑慈善总会', 'ay@ayfoundation.org', '010-50948839', '北京市朝阳区阜通东大街1号望京SOHO-T3-B座609室', '2022-04-28 16:52:05', 'ROLE_CHARITY', 2000, 'http://192.168.101.165:9090/file/9d60719ff4e54c319a2d9d5bf9f15c30.webp');
+INSERT INTO `sys_user` VALUES (31, 'SCLF', '123456', '宋庆龄基金会', 'sclf@sclf.org', '010-86601927', '北京市东城区东安门大街82号院', '2022-04-28 16:58:40', 'ROLE_CHARITY', 3000, 'http://192.168.101.165:9090/file/b78bc065fd554bc09a0790ecb371f7a7.webp');
+INSERT INTO `sys_user` VALUES (32, 'CCATF', '123456', '中国儿童少年基金会', 'cctf@cctf.org.cn', '010-65285128', '北京市东城区建国门内大街15号全国妇联大楼主楼10层', '2022-04-28 17:00:46', 'ROLE_CHARITY', 3200, 'http://192.168.101.165:9090/file/1bed873ea44d47ecba761b80b3009faf.webp');
+INSERT INTO `sys_user` VALUES (33, '中国红十字会', '123456', '中国红十字会', NULL, '84025890', '北京市东城区北新桥三条8号 ', '2022-04-28 17:01:43', 'ROLE_CHARITY', 4000, 'http://192.168.101.165:9090/file/d5ea21c43fa04ad29c00909f82a28a86.webp');
+INSERT INTO `sys_user` VALUES (34, '中国再生资源回收利用协会', '123', '中国再生资源回收利用协会', NULL, '18810042527', '北京市西城区横二条2号华恒大厦6楼', '2022-04-28 17:03:23', 'ROLE_RECYCLE', 2500, 'http://192.168.101.165:9090/file/c2bbcd8b689b48d98833ab78a2b80363.webp');
+INSERT INTO `sys_user` VALUES (35, '飞蚂蚁', '123', '飞蚂蚁', 'fmy@fmy90.com', '4001-899-373', '上海善衣网络科技有限公司', '2022-04-28 17:07:05', 'ROLE_RECYCLE', 36000, 'http://192.168.101.165:9090/file/a9e0c6455e294953b1904cfe94a7b8c0.jpg');
 INSERT INTO `sys_user` VALUES (42, 'LLRL', NULL, 'LL', '15620482646@qq.com', '13785247895', '郑州大学', '2022-05-29 15:22:57', 'ROLE_USER', 0, NULL);
 
 -- ----------------------------

@@ -21,9 +21,9 @@
               </div>
             </template>
             <el-button type="primary" @click="thresholdProcess" >阈值处理</el-button>
-            <el-button type="primary" @click="whiteningProcess" >美白处理</el-button>
+<!--            <el-button type="primary" @click="whiteningProcess" >美白处理</el-button>
             <el-button type="primary" @click="mosaicProcess" >马赛克处理</el-button>
-            <el-button type="primary" @click="oilpaintingProcess" >油画处理</el-button>
+            <el-button type="primary" @click="oilpaintingProcess" >油画处理</el-button>-->
           </el-card>
         </el-col>
         <el-col>
@@ -37,17 +37,17 @@
               <div class="demo-image__preview">
                 <el-image
                     style="width: 440px; height: 300px"
-                    :src="require('E:\\CodeProject\\SaaS\\files\\1.jpg')"
-                    :preview-src-list="[require('E:\\CodeProject\\SaaS\\files\\1.jpg')]"
+                    :src=this.dsturl
+                    :preview-src-list="[this.dsturl]"
                 >
                 </el-image>
               </div>
             </template>
             <el-button type="primary"  >成图如上</el-button>
-            <el-button type="primary"  >下载图片</el-button>
+            <el-button type="primary" @click="download">下载图片</el-button>
           </el-card>
         </el-col>
-        <el-col >
+<!--        <el-col>
           <el-card class="box-card" shadow="hover">
             <template #header>
               <div class="card-header">
@@ -67,10 +67,10 @@
             <el-button type="primary"  >成图如上</el-button>
             <el-button type="primary"  >下载图片</el-button>
           </el-card>
-        </el-col>
+        </el-col>-->
       </el-row>
     </div>
-    <div>
+<!--    <div>
       <el-row :gutter="20" class="el-row" type="flex">
         <el-col>
           <el-card class="box-card" shadow="hover">
@@ -136,7 +136,7 @@
         </el-card>
         </el-col>
       </el-row>
-    </div>
+    </div>-->
   <el-dialog title="数据信息" :visible.sync="dialogFormVisible" width="20%">
     <el-form label-width="80px" size="small">
       <el-form-item label="参数1">
@@ -170,12 +170,14 @@
 
 <script>
 import {serverIp} from "../../public/config";
+import axios from "axios";
 
 export default {
   name: "Image",
   data(){
     return{
       form:{},
+      dsturl:'',
       serverIp,
       dialogFormVisible: false,
       tableData:[]
@@ -200,10 +202,11 @@ export default {
         }
       }).then(res=>{
         if (res.code === '200') {
-          this.$message.success("保存成功")
+          this.$message.success("处理成功")
           this.dialogFormVisible = false
+          this.dsturl=this.form.imgurl.substring(0,this.form.imgurl.length-4)+"afterprocess.jpg"
         }else{
-          this.$message.success("保存失败")
+          this.$message.success("处理失败")
         }
       })
     },
@@ -213,6 +216,9 @@ export default {
     handleAdd() {
       this.dialogFormVisible = true
       this.form={}
+    },
+    download() {
+      window.open(this.dsturl)
     },
   }
 }

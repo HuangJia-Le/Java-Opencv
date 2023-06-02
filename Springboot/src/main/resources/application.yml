@@ -1,5 +1,5 @@
 server:
-  ip: localhost
+  ip: 192.168.101.165
   port: 9090
 
 spring:

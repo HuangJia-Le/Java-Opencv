@@ -93,7 +93,7 @@
         </el-form-item>
         <el-form-item label="头像">
           <el-upload
-              ref="upload"  action="http://localhost:9090/file/upload" :on-success="filesUploadSuccess">
+              ref="upload"  action="http://192.168.101.165:9090/file/upload" :on-success="filesUploadSuccess">
             <el-button  type="primary">点击上传</el-button>
           </el-upload>
         </el-form-item>

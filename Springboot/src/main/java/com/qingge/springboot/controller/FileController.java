@@ -82,7 +82,7 @@ public class FileController {
     }
 
     /**
-     * 文件下载接口   http://localhost:9090/file/{fileUUID}
+     * 文件下载接口   http://192.168.101.165:9090/file/{fileUUID}
      * @param fileUUID
      * @param response
      * @throws IOException
