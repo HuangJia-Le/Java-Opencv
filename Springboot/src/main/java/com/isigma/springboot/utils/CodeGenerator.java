@@ -25,7 +25,7 @@ public class CodeGenerator {
                             .outputDir("E:\\CodeProject\\SaaS\\Springboot\\src\\main\\java\\"); // 指定输出目录
                 })
                 .packageConfig(builder -> {
-                    builder.parent("com.qingge.springboot") // 设置父包名
+                    builder.parent("com.isigma.springboot") // 设置父包名
                             .moduleName(null) // 设置父包模块名
                             .pathInfo(Collections.singletonMap(OutputFile.mapperXml, "E:\\CodeProject\\SaaS\\Springboot\\src\\main\\resources\\mapper\\")); // 设置mapperXml生成路径
                 })

@@ -148,16 +148,16 @@
       <el-form-item label="参数3">
         <el-input v-model="form.parameter3" autocomplete="off"></el-input>
       </el-form-item>
-      <el-form-item label="图片">
         <el-upload
             class="avatar-uploader"
             :action="'http://' + serverIp +':9090/file/upload'"
             :show-file-list="true"
             :on-success="handleAvatarSuccess"
         >
-          <img  class="avatar">
+          <img v-if="form.imgurl" :src="form.imgurl" class="avatar">
+          <i v-else class="el-icon-plus avatar-uploader-icon"></i>
         </el-upload>
-      </el-form-item>
+
     </el-form>
     <div slot="footer" class="dialog-footer">
       <el-button @click="dialogFormVisible = false">取 消</el-button>

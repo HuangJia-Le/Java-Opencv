@@ -32,7 +32,7 @@ public class SwaggerConfig {
                 .useDefaultResponseMessages(true)
                 .forCodeGeneration(false)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.qingge.springboot.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.isigma.springboot.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
