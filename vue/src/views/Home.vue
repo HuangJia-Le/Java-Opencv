@@ -24,7 +24,7 @@ export default {
         {id:0,idView:require('E:\\CodeProject\\SaaS\\files\\公益背景.jpg')},
         {id:1,idView:require('E:\\CodeProject\\SaaS\\files\\绿色.jpg')},
         {id:2,idView:require('E:\\CodeProject\\SaaS\\files\\绿色1.jpg')},
-        {id:3,idView:require('E:\\CodeProject\\SaaS\\files\\爱心文摘.png')}
+       /* {id:3,idView:require('E:\\CodeProject\\SaaS\\files\\爱心文摘.png')}*/
       ],
       tableData:[],
       tableData1:[],

@@ -25,11 +25,16 @@ const routes = [
     name: '404',
     component: () => import('../views/404.vue')
   },
- /* {
+  {
     path: '/index',
     name: 'index',
-    component: () => import('../views/frontdesk/index.vue')
-  },*/
+    component: () => import('../views/reception/index')
+  },
+  {
+    path: '/services',
+    name: 'services',
+    component: () => import('../views/reception/services.vue')
+  }
 
 ]
 
