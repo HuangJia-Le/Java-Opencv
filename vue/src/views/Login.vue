@@ -2,7 +2,7 @@
   <div >
     <div class="video-container">
       <div  class="filter">
-        <div style="width: 400px; margin: 300px auto">
+        <div style="width: 400px; margin: 200px auto;">
           <el-form :model="user" :rules="rules" ref="userForm"  class="login-form">
             <div class="title">
               <img src="../assets/logo.png" alt="" style="width: 40px; position: relative; top: 10px;">
@@ -104,7 +104,7 @@ export default {
 .login-form {
   border-radius: 6px;
   background: #ffffff;
-  width: 500px;
+  width: 400px;
   padding: 25px 25px 5px 25px;
 .el-input {
   height: 38px;
